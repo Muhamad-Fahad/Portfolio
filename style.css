@@ -1,0 +1,140 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 375px;
+  justify-content: space-between;
+}
+
+#mylogo {
+  height: hug(40px);
+  width: 100(px);
+  top: 4px;
+  left: 12px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+#logoNest {
+  width: hug(76px);
+  height: hug(20px);
+  align-items: center;
+}
+
+#text1 {
+  color: #6070ff;
+  font-size: 18px;
+  line-height: 20px;
+  align-self: center;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+#hambrg {
+  height: hug(40px);
+  width: hug(40px);
+  top: 4px;
+  padding: 8px;
+  left: 311px;
+}
+
+#Logo {
+  height: 24px;
+  width: 24px;
+}
+
+#content {
+  width: 327px;
+  height: 150px;
+}
+
+#text2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+}
+
+#firstpg {
+  width: 375px;
+  height: 604px;
+  top: 92px;
+  padding-top: 114px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 114px;
+  gap: 12px;
+  background-image: url("header-shapes mobile.png");
+  background-repeat: no-repeat;
+}
+
+#textbody {
+  width: 327px;
+  height: 146px;
+}
+
+#text3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+#connect {
+  width: hug(117px);
+  height: hug(24px);
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #7f8cff;
+}
+
+#icons {
+  width: 171px;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#twitter {
+  width: 19.99px;
+  height: 19.99px;
+  top: 470px;
+  left: 24px;
+}
+
+#linkedin {
+  width: 19.99px;
+  height: 19.99px;
+  top: 470px;
+  left: 63px;
+}
+
+#m {
+  width: 19.99px;
+  height: 16px;
+  top: 472px;
+  left: 103px;
+}
+
+#git {
+  width: 17.99px;
+  height: 19.99px;
+  top: 470px;
+  left: 143px;
+}
+
+#v {
+  width: 14.17px;
+  height: 19.99px;
+  top: 470px;
+  left: 170px;
+}
