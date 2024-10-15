@@ -7,21 +7,20 @@ header {
 }
 
 #mylogo {
-  height: hug(40px);
-  width: 100(px);
+  height: 40px;
+  width: 100px;
   top: 4px;
   left: 12px;
-  padding-left: 12px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 12px;
+  padding: 10px 12px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #logoNest {
-  width: hug(76px);
-  height: hug(20px);
+  width: 76px;
+  height: 20px;
+  display: flex;
   align-items: center;
 }
 
@@ -35,10 +34,10 @@ header {
 }
 
 #hambrg {
-  height: hug(40px);
-  width: hug(40px);
-  top: 4px;
+  height: 40px;
+  width: 40px;
   padding: 8px;
+  position: relative;
   left: 311px;
 }
 
@@ -61,13 +60,9 @@ header {
 }
 
 #firstpg {
-  width: hug(375px);
-  height: hug(604px);
-  top: 92px;
-  padding-top: 114px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-bottom: 114px;
+  width: 375px;
+  height: 604px;
+  padding: 114px 24px;
   gap: 12px;
   background-image: url("header-shapes mobile.png");
   background-repeat: no-repeat;
@@ -88,11 +83,10 @@ header {
 }
 
 #connect {
-  width: hug(117px);
-  height: hug(24px);
-  gap: 16px;
+  width: 117px;
+  height: 24px;
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
   color: #7f8cff;
@@ -101,306 +95,101 @@ header {
 #icons {
   width: 171px;
   height: 20px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#twitter {
-  width: 19.99px;
-  height: 19.99px;
-  top: 470px;
-  left: 24px;
-}
-
-#linkedin {
-  width: 19.99px;
-  height: 19.99px;
-  top: 470px;
-  left: 63px;
-}
-
-#m {
-  width: 19.99px;
-  height: 16px;
-  top: 472px;
-  left: 103px;
-}
-
-#git {
-  width: 17.99px;
-  height: 19.99px;
-  top: 470px;
-  left: 143px;
-}
-
-#v {
-  width: 14.17px;
-  height: 19.99px;
-  top: 470px;
-  left: 170px;
+#icons img {
+  width: 20px;
+  height: 20px;
 }
 
 #works {
-  width: hug (375px)px;
-  height: hug (2788px)px;
-  top: 718px;
-  padding: 114px 24px 114px 24px;
+  width: 375px;
+  padding: 114px 24px;
   gap: 88px;
 }
 
-#work1 {
-  width: hug (327px)px;
-  height: hug (552px)px;
-  padding: 16px 0 0 0;
+#work1, #work2, #work3, #work4 {
+  width: 327px;
+  padding-top: 16px;
   gap: 12px;
   border-radius: 16px;
-  border: 1px;
+  border: 1px solid #ddd;
 }
 
-#fbimg {
+#fbimg, #snapshoot1, #snapshoot2, #snapshoot3 {
   width: 295px;
   height: 220px;
   border-radius: 8px;
 }
 
-.primarytext1 {
-  width: hug (295px)px;
-  height: hug (288px)px;
-  gap: 12px;
-}
-
-.tonic {
-  width: hug (295px)px;
-  height: hug (80px)px;
-  gap: 12px;
-}
-
-.frame1 {
+.primarytext1, .primarytext11 {
   width: 295px;
-  height: 36px;
+  gap: 12px;
 }
 
-.tonictext {
+.tonic, .multipost {
+  width: 295px;
+  height: 80px;
+  gap: 12px;
+}
+
+.tonictext, .multitext {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  text-align: left;
   color: #172b4d;
+}
+
+.frame1, .frame11 {
+  width: 295px;
+  height: 36px;
 }
 
 .frame2 {
   display: flex;
   align-items: center;
-  width: hug (236px)px;
-  height: hug (32px)px;
   gap: 12px;
-  opacity: 0;
 }
 
-.canopy {
-  width: hug (55px)px;
-  height: hug (32px)px;
-  padding: 8px 0 8px 0;
-  gap: 0;
-  opacity: 0;
+.canopy, .role, .year {
+  padding: 8px 0;
 }
 
-.canopy2 {
-  width: 55px;
-  height: 16px;
-  gap: 0;
-  opacity: 0;
-}
-
-.canopytext {
+.canopytext, .roletext, .yeartext {
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
-  line-height: 16px;
-  text-align: left;
-  color: #344563;
-}
-
-.counter1 {
-  width: 8px;
-  height: 8px;
-  gap: 0;
-  opacity: 0;
-}
-
-.role {
-  width: hug (88px)px;
-  height: hug (32px)px;
-  padding: 8px 0 8px 0;
-  gap: 0;
-  opacity: 0;
-}
-
-.backend {
-  width: 88px;
-  height: 16px;
-  gap: 0;
-  opacity: 0;
-}
-
-.roletext {
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
-  text-align: left;
   color: #7a869a;
 }
 
-.counter2 {
-  width: 8px;
-  height: 8px;
-  gap: 0;
-  opacity: 0;
-}
-
-.year {
-  width: hug (29px)px;
-  height: hug (32px)px;
-  padding: 8px 0 8px 0;
-  gap: 0;
-  opacity: 0;
-}
-
-.year1 {
-  width: 29px;
-  height: 16px;
-  gap: 0;
-  opacity: 0;
-}
-
-.yeartext {
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
-  text-align: left;
-  color: #7a869a;
-}
-
-.primarytext2 {
+.primarytext2, .text1 {
   width: 295px;
-  height: 76px;
-  gap: 0;
-  opacity: 0;
-}
-
-.text1 {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  font-weight: 400;
   line-height: 24px;
-  text-align: left;
   color: #344563;
 }
 
 .horizontal-list {
   list-style: none;
   display: flex;
-  width: hug (214px)px;
-  height: hug (24px)px;
   gap: 8px;
-  opacity: 0;
-  justify-content: flex-start;
-  padding: 0;
 }
 
-.li1 {
-  display: flex;
-  align-items: center;
-  width: hug (57px)px;
-  height: hug (24px)px;
-  padding: 4px 12px 4px 12px;
-  gap: 0;
+.horizontal-list li {
+  padding: 4px 12px;
   border-radius: 8px;
-  opacity: 0;
   background: #ebebff;
 }
 
-.tag1 {
-  align-items: center;
-  display: flex;
-  width: 33px;
-  height: 16px;
-  gap: 0;
-  opacity: 0;
-}
-
-.tagtext1 {
+.tag1, .tag2, .tag3 {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #6070ff;
-}
-
-.li2 {
-  display: flex;
-  align-items: center;
-  width: hug (49px)px;
-  height: hug (24px)px;
-  padding: 4px 12px 4px 12px;
-  gap: 0;
-  border-radius: 8px;
-  opacity: 0;
-  background: #ebebff;
-}
-
-.tag2 {
-  align-items: center;
-  display: flex;
-  width: 25px;
-  height: 16px;
-  gap: 0;
-  opacity: 0;
-}
-
-.tagtext2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #6070ff;
-}
-
-.li3 {
-  display: flex;
-  align-items: center;
-  width: hug (92px)px;
-  height: hug (24px)px;
-  padding: 4px 12px 4px 12px;
-  gap: 0;
-  border-radius: 8px;
-  opacity: 0;
-  background: #ebebff;
-}
-
-.tag3 {
-  align-items: center;
-  display: flex;
-  width: 68px;
-  height: 16px;
-  gap: 0;
-  opacity: 0;
-}
-
-.tagtext3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
   color: #6070ff;
 }
 
@@ -409,9 +198,7 @@ header {
   align-items: center;
   width: 295px;
   height: 72px;
-  padding: 12px 0 12px 0;
-  gap: 0;
-  opacity: 0;
+  padding: 12px 0;
 }
 
 .normalbutton {
@@ -419,96 +206,16 @@ header {
   align-items: center;
   justify-content: center;
   width: 126px;
-  height: 48%;
-  top: 12px;
+  height: 48px;
   padding: 12px;
   gap: 10px;
   border-radius: 8px;
-  opacity: 1px;
   border: 1px solid #6070ff;
-}
-
-.project {
-  display: flex;
-  align-items: center;
-  width: hug(102px) px;
-  height: hug(24px) px;
-  gap: 0;
-  opacity: 1px;
 }
 
 .projecttext {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 3%;
-  text-align: center;
   color: #396df2;
-}
-
-#work2 {
-  width: hug (327px)px;
-  height: hug (596px)px;
-  padding: 16px 0 0 0;
-  gap: 12px;
-  border-radius: 16px;
-  border: 1px;
-  opacity: 0;
-}
-
-#snapshoot1 {
-  width: hug(295px) px;
-  height: hug(220px) px;
-  gap: 0;
-  border-radius: 8px;
-  opacity: 0;
-}
-
-.leftblock {
-  width: hug (295px)px;
-  height: hug (332px)px;
-  gap: 12px;
-  opacity: 0;
-}
-
-.primarytext11 {
-  width: hug (295px)px;
-  height: hug (124px)px;
-  gap: 12px;
-  opacity: 0;
-}
-
-.frame11 {
-  width: 295px;
-  height: 80px;
-  gap: 0;
-  opacity: 1px;
-}
-
-.multitext {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 33px;
-  line-height: 44px;
-  text-align: left;
-  color: #172b4d;
-}
-
-#work3 {
-  width: hug (327px)px;
-  height: hug (552px)px;
-  padding: 16px 0 0 0;
-  gap: 12px;
-  border-radius: 16px 0 0 0;
-  border: 1px 0 0 0;
-  opacity: 0;
-}
-
-#snapshoot2 {
-  width: 295px;
-  height: 220px;
-  gap: 0;
-  border-radius: 8px;
-  opacity: 0;
 }
